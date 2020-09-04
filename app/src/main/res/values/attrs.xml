@@ -1,0 +1,68 @@
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="StatusBarHeightView">
+        <attr name="use_type" format="integer">
+            <enum name="use_height" value="0" />
+            <enum name="use_padding_top" value="1" />
+        </attr>
+        <attr name="bg_color" format="boolean" />
+        <attr name="bg_white_color" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLine" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="HoverView">
+        <attr name="mTopFill" format="float" />
+        <attr name="mTopHover" format="float" />
+    </declare-styleable>
+
+    <!--注意这里的name要和自定义View的名称一致，不然在xml布局中无法引用-->
+    <declare-styleable name="CircleBarView">
+        <attr name="progress_color" format="color"></attr>
+        <attr name="bg_bar_color" format="color"></attr>
+
+        <attr name="bar_width" format="dimension"></attr>
+
+        <attr name="start_angle" format="float"></attr>
+        <attr name="sweep_angle" format="float"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomProgress">
+        <attr name="backgroud_color" format="color"></attr>
+        <attr name="progress_olor_default" format="color"></attr>
+        <attr name="text_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="customImageViewStyle" format="reference" />
+    </declare-styleable>
+    <!-- 自定义圆角ImageView -->
+    <declare-styleable name="CustomImageView">
+        <attr name="circle" format="boolean" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulProgressbar">
+        <attr name="animation" format="boolean" />
+        <attr name="max" format="integer" />
+        <attr name="progress_int" format="integer" />
+        <attr name="secondProgress" format="integer" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="progressColor1" format="color" />
+        <attr name="progressColor2" format="color" />
+    </declare-styleable>
+    <declare-styleable name="AutoPlayRecyclerView">
+        <attr name="timeInterval" format="integer" />
+        <attr name="direction" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

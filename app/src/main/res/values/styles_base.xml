@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="WrapMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchAuto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="AutoMatch">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapAuto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="AutoWrap">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchAuto.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchAuto.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AutoMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AutoMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapAuto.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapAuto.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AutoWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AutoWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchOne">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="OneMatch">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="HomeTabMenuIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top|center</item>
+    </style>
+
+
+    <style name="MeMenuLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MessageViewLineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_1</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_16</item>
+        <item name="android:layout_marginRight">@dimen/qb_px_16</item>
+        <item name="android:background">@color/color_f8f8f8</item>
+    </style>
+
+    <style name="MessageIconStyle">
+        <item name="android:layout_width">@dimen/qb_px_20</item>
+        <item name="android:layout_height">@dimen/qb_px_20</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_16</item>
+    </style>
+
+    <style name="MessageTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/qb_px_55</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/qb_px_16</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+
+    <!--设置tabLayout字体大小-->
+    <style name="MyCustomTabTextAppearance">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="MeOrderLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_60</item>
+    </style>
+
+    <style name="MeOrderImageViewStyle">
+        <item name="android:layout_width">@dimen/qb_px_20</item>
+        <item name="android:layout_height">@dimen/qb_px_20</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_16</item>
+    </style>
+
+    <style name="MeOrderTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/qb_px_15</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_15</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+
+    <style name="UserInfoLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/qb_px_15</item>
+        <item name="android:paddingRight">@dimen/qb_px_15</item>
+        <item name="android:paddingTop">@dimen/qb_px_10</item>
+        <item name="android:paddingBottom">@dimen/qb_px_10</item>
+    </style>
+
+
+    <style name="UserInfoTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="UserInfoTextSelectStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_3</item>
+        <item name="android:hint">--</item>
+        <item name="android:textColor">@color/home_list_time</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+
+
+
+    <style name="MeStringTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginRight">@dimen/qb_px_10</item>
+    </style>
+
+
+    <style name="MeStringLeftIconStyle">
+        <item name="android:layout_width">@dimen/qb_px_25</item>
+        <item name="android:layout_height">@dimen/qb_px_25</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <style name="MeStringRightIconStyle">
+        <item name="android:layout_width">@dimen/qb_px_14</item>
+        <item name="android:layout_height">@dimen/qb_px_14</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+
+    <style name="TestBtnStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_50</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_16</item>
+        <item name="android:layout_marginRight">@dimen/qb_px_16</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_5</item>
+        <item name="android:layout_marginBottom">@dimen/qb_px_5</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="AddressTextViewStyle">
+        <item name="android:layout_width">@dimen/qb_px_70</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_16</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="WinningLayoutStyle" parent="AutoWrap">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WinningImageViewStyle">
+        <item name="android:layout_width">@dimen/qb_px_30</item>
+        <item name="android:layout_height">@dimen/qb_px_30</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_20</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <style name="WinningTextViewStyle" parent="WrapWrap">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_12</item>
+        <item name="android:layout_marginBottom">@dimen/qb_px_20</item>
+    </style>
+
+    <style name="TextViewTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_16</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_20</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+
+
+    <style name="PlanHeaderTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_10</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+
+    <style name="PlanHeaderIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <style name="PlanHeaderDesStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:layout_marginBottom">@dimen/qb_px_16</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/color_red_e02020</item>
+    </style>
+
+
+
+    <style name="TargetChildTitleStyle" parent="WrapWrap">
+        <item name="android:layout_marginTop">@dimen/qb_px_15</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_8</item>
+    </style>
+
+    <style name="TargetChildDaysStyle" parent="WrapWrap">
+        <item name="android:layout_marginTop">@dimen/qb_px_5</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/qb_px_8</item>
+    </style>
+
+    <style name="TargetChildImageViewStyle" parent="WrapWrap">
+        <item name="android:contentDescription">@string/app_name</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_10</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_15</item>
+    </style>
+
+
+
+    <style name="MeChildMenuIconStyle">
+        <item name="android:layout_width">@dimen/qb_px_25</item>
+        <item name="android:layout_height">@dimen/qb_px_25</item>
+        <item name="android:contentDescription">@string/app_name</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="MeChildMenuTextStyle" parent="WrapWrap">
+        <item name="android:layout_marginTop">@dimen/qb_px_10</item>
+        <item name="android:textColor">#423F40</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="PhotoBrowser" parent="AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- This is the color of the Status bar -->
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/photo_enter</item>
+        <item name="android:windowSharedElementExitTransition">@transition/photo_exit</item>
+    </style>
+
+</resources>
